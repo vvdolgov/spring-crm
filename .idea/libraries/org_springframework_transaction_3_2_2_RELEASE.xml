@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.springframework.transaction-3.2.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/org.springframework.transaction/3.2.5.RELEASE/org.springframework.transaction-3.2.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
