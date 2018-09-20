@@ -1,10 +1,10 @@
-package hibernate.springdemo.dao;
+package hibernate.springdemo.service;
 
 import hibernate.springdemo.entity.Customer;
 
 import java.util.List;
 
-public interface CustomerDAO {
-    public List<Customer>  getCustomers();
+public interface CustomerService {
+    public List<Customer> getCustomers();
     public void saveCustomer(Customer customer);
 }
