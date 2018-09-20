@@ -5,7 +5,7 @@
   Time: 15:43
   To change this template use File | Settings | File Templates.
 --%>
-<%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -27,13 +27,13 @@
                     <th>Email</th>
                 </tr>
 
-                <c:forEach var="tempCustomer" items=${customers}>
+                <forEach var="tempCustomer" items="${customers}">
                     <tr>
                         <td>${tempCustomer.firstName}</td>
                         <td>${tempCustomer.lastName}</td>
                         <td>${tempCustomer.email}</td>
                     </tr>
-                </c:forEach>
+                </forEach>
             </table>
         </div>
     </div>
